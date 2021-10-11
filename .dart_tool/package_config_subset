@@ -50,6 +50,14 @@ flutter_lints
 2.12
 file:///Users/haneen/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-1.0.4/
 file:///Users/haneen/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-1.0.4/lib/
+http
+2.14
+file:///Users/haneen/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.4/
+file:///Users/haneen/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.4/lib/
+http_parser
+2.12
+file:///Users/haneen/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0/
+file:///Users/haneen/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0/lib/
 image
 2.12
 file:///Users/haneen/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/image-3.0.7/

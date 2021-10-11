@@ -110,7 +110,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		T8OEUylhsJjV4qthha+w4s7JMUk=
+		ff7Lfksfw24/fksJ0zjUet+Ly0k=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		mKP9sDjw3Tops2mrTYHFUaVHeLQ=
+		C6YPLdaI1yzdoCwS6j8r85ve2uY=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		woh8KwJ1tE72jGAqmz+Fpya8lwU=
+		3K946FggIk4bkJFTVg5s8g259kw=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -158,11 +158,23 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		n/KNmsDAx7OZcv12X/LnJcwG940=
+		njLEO1TqCjFqr4OOKiDK7Yc437s=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/lib/assets/charecters/WormiesPoh.png</key>
 		<data>
 		N5alm8JjpN0kgki2LAUVydLdWn0=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/lib/assets/charecters/main%20character%20avatar.png</key>
+		<data>
+		utj5zAQytiZkYstkZbepXtS4k7c=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/lib/assets/charecters/main%20character.png</key>
+		<data>
+		xGLl9k6zH5bO7IKnhw6juJ1oBak=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/lib/assets/images/vase%20with%20shadow.png</key>
+		<data>
+		HZvAfIZ2DwVaHb4X4kFS7FZIq4A=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/lib/assets/images/vase.png</key>
 		<data>
@@ -182,7 +194,7 @@
 		</data>
 		<key>Frameworks/Flutter.framework/Flutter</key>
 		<data>
-		+yarJPjKYrHMEqpChnVP60ozD18=
+		e30QkIoRAFNJuldoFaXL0u7Tn4s=
 		</data>
 		<key>Frameworks/Flutter.framework/Headers/Flutter.h</key>
 		<data>
@@ -621,11 +633,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			T8OEUylhsJjV4qthha+w4s7JMUk=
+			ff7Lfksfw24/fksJ0zjUet+Ly0k=
 			</data>
 			<key>hash2</key>
 			<data>
-			gxjB/EZemBmX8hebPpeNf5uB+02Ddvrj1qoZNEYDxNA=
+			1fy+CmqGLgfdvsbu9WcZnoferT6OHdM7ZUxtzKea87Y=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -643,22 +655,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mKP9sDjw3Tops2mrTYHFUaVHeLQ=
+			C6YPLdaI1yzdoCwS6j8r85ve2uY=
 			</data>
 			<key>hash2</key>
 			<data>
-			kciM/v6TEHf2HNv+Px/SDJD/gZ0t694dXElkmZGT1s8=
+			CrydjxfxzmqXXXkA0DWLvftlXh+BEi4QBLNMHR4Pkh8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			woh8KwJ1tE72jGAqmz+Fpya8lwU=
+			3K946FggIk4bkJFTVg5s8g259kw=
 			</data>
 			<key>hash2</key>
 			<data>
-			whs5j3lgzAUzdxJPjTMcNB/+DRDR9M9BtFAt/wZNghs=
+			Bpyf/naYkHA3SkW/bRZIq30Obn8u7XihXRH+xstQfwo=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -753,11 +765,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			n/KNmsDAx7OZcv12X/LnJcwG940=
+			njLEO1TqCjFqr4OOKiDK7Yc437s=
 			</data>
 			<key>hash2</key>
 			<data>
-			XlFNGCmASP2d0w130hvp1bcqRt7MiI3KbHAzmgDbRJI=
+			qt+M+f2B4rvavzlDq4P2VjRBgGd4n9YrksGQ/B8A/48=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/lib/assets/charecters/WormiesPoh.png</key>
@@ -769,6 +781,39 @@
 			<key>hash2</key>
 			<data>
 			kxzNI2VZxGR/OPhZGNdSt3SYkV++SSCFcUFQ3X4voMM=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/lib/assets/charecters/main%20character%20avatar.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			utj5zAQytiZkYstkZbepXtS4k7c=
+			</data>
+			<key>hash2</key>
+			<data>
+			FInXMS4LuzODq7V5KgKQTZgwiHH+rnib4rm9dvz+m7g=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/lib/assets/charecters/main%20character.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xGLl9k6zH5bO7IKnhw6juJ1oBak=
+			</data>
+			<key>hash2</key>
+			<data>
+			yglq8W1E7PeV8/ZJGvaLZnYodgzUzZA7PTIBN3nWcXQ=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/lib/assets/images/vase%20with%20shadow.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HZvAfIZ2DwVaHb4X4kFS7FZIq4A=
+			</data>
+			<key>hash2</key>
+			<data>
+			GE3Cq6g2QC8bpSX/tNe9ANRCODe2TSnBIs0w1sJ6+BY=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/lib/assets/images/vase.png</key>
@@ -819,11 +864,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+yarJPjKYrHMEqpChnVP60ozD18=
+			e30QkIoRAFNJuldoFaXL0u7Tn4s=
 			</data>
 			<key>hash2</key>
 			<data>
-			J1qc5gPuHCIPwHEE8Qo5OIJp+wKpQu2/AO9BTuSDXTM=
+			dy86EtJxuzFQh72ksjY7eaDJvLG/e0vVTX9kIOyeZYA=
 			</data>
 		</dict>
 		<key>Frameworks/Flutter.framework/Headers/Flutter.h</key>

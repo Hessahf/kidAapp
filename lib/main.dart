@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:new_one/constant/color.dart';
 import 'package:new_one/styles.dart';
+import 'screens/start-screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: ' Demo',
       theme: buildLightTheme(),
       darkTheme: buildDarkTheme(),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: StartScreen(),
     );
   }
 }
