@@ -5,10 +5,14 @@ ThemeData buildLightTheme() {
   final ThemeData base = ThemeData.light();
   return base.copyWith(
     buttonColor: purple,
-    cardColor: yellow,
+    cardColor: Colors.white,
     backgroundColor: yellow,
     primaryColor:orange,
     accentColor: orange,
+    hintColor:greyDark ,
+    iconTheme: IconThemeData(
+      color: Colors.black87,
+    ),
     scaffoldBackgroundColor: yellow,
   );
 }
@@ -21,6 +25,10 @@ ThemeData buildDarkTheme() {
     backgroundColor:greyDark,
     primaryColor: greyDark,
     accentColor: greyDark,
+    hintColor:orange ,
+    iconTheme: IconThemeData(
+      color: purple,
+    ),
     scaffoldBackgroundColor:blackDark,
   );
 }

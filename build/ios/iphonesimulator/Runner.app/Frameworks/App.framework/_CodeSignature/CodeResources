@@ -18,11 +18,7 @@
 		</data>
 		<key>flutter_assets/NOTICES</key>
 		<data>
-		M0h2o+0JX/pTnJCwCSPr861Xxe8=
-		</data>
-		<key>flutter_assets/NOTICES.Z</key>
-		<data>
-		R7s10EXL9JMbAt+Q4rP0VG4iHvU=
+		i6Xljm7n9pPi6yUfngZsw1yV7pM=
 		</data>
 		<key>flutter_assets/assets/appIcon/appIcon.png</key>
 		<data>
@@ -42,11 +38,11 @@
 		</data>
 		<key>flutter_assets/isolate_snapshot_data</key>
 		<data>
-		/0AmkjULIIaL/3YHuPipBTwKbBU=
+		ELluN2aQ5lXx4NZnJlBUXyZEfGo=
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		njLEO1TqCjFqr4OOKiDK7Yc437s=
+		1Iy+KRq4bQG7ij7VhoGNzGMP5/E=
 		</data>
 		<key>flutter_assets/lib/assets/charecters/WormiesPoh.png</key>
 		<data>
@@ -78,7 +74,7 @@
 		</data>
 		<key>flutter_assets/vm_snapshot_data</key>
 		<data>
-		GSdeSSVKlMZc4dGp6K8FmNf4taU=
+		BICKLyZmEDX0yMJrQwYDz3tKwt8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -109,22 +105,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			M0h2o+0JX/pTnJCwCSPr861Xxe8=
+			i6Xljm7n9pPi6yUfngZsw1yV7pM=
 			</data>
 			<key>hash2</key>
 			<data>
-			yGQ903bf4Pte+M0HFuSxqrmQps1sZgJvjuyVV5pQ26M=
-			</data>
-		</dict>
-		<key>flutter_assets/NOTICES.Z</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			R7s10EXL9JMbAt+Q4rP0VG4iHvU=
-			</data>
-			<key>hash2</key>
-			<data>
-			OqEOnQ+rK2W8q62IRhOZdqQk+krCx36KeYZgdn6a6As=
+			jv0wiAJuo1qP1AZxlM826LUgYw4fX/dPDgWlCKJmCjQ=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/appIcon/appIcon.png</key>
@@ -175,22 +160,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/0AmkjULIIaL/3YHuPipBTwKbBU=
+			ELluN2aQ5lXx4NZnJlBUXyZEfGo=
 			</data>
 			<key>hash2</key>
 			<data>
-			hc8CBwWuRZrLFRWblPxaGJP1JqY7ZNQrutoUnQ0SxPE=
+			d5Zhq5S+3ylGF8osqx2M/nYmzI/1w4FDUIjGiKWFaOc=
 			</data>
 		</dict>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			njLEO1TqCjFqr4OOKiDK7Yc437s=
+			1Iy+KRq4bQG7ij7VhoGNzGMP5/E=
 			</data>
 			<key>hash2</key>
 			<data>
-			qt+M+f2B4rvavzlDq4P2VjRBgGd4n9YrksGQ/B8A/48=
+			0gXJFQmZTNzbtYh5tuKzjTGe5eTTkIS1x8EDK7YYC34=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/assets/charecters/WormiesPoh.png</key>
@@ -274,11 +259,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GSdeSSVKlMZc4dGp6K8FmNf4taU=
+			BICKLyZmEDX0yMJrQwYDz3tKwt8=
 			</data>
 			<key>hash2</key>
 			<data>
-			w1vt9GEbbsxDdWG+Cns8O0OA28qaaHi/gkQ1bDZezNk=
+			dW/lW8/DGE7kqgVOIL22hio/M/WrH8+bodAoyvhyXsU=
 			</data>
 		</dict>
 	</dict>

@@ -22,7 +22,7 @@ class _StartScreenState extends State<StartScreen> {
     var mobile = isMobile(context);
     var newDevice = isNew(context);
     return Scaffold(
-        backgroundColor: yellow,
+        //backgroundColor: yellow,
         body: Center(
           child: Column(
             children: [

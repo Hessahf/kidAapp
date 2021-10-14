@@ -29,7 +29,7 @@ class NameField extends StatelessWidget {
                 child: Text(
                   'ما اسمك؟',
                   style: TextStyle(
-                      color: Colors.black,
+                      //color: Colors.black,
                       fontFamily: 'Tajawal',
                       fontWeight: FontWeight.bold,
                       fontSize: mobile
@@ -56,14 +56,15 @@ class NameField extends StatelessWidget {
                   ),
                   filled: true,
                   hintStyle: TextStyle(
-                    color: Colors.grey[800],
+                    //color: Colors.grey[800],
                     fontFamily: 'Tajawal',
                     fontSize: mobile
                         ? screenSize.width * .03
                         : screenSize.width * .025,
                   ),
                   hintText: 'قم بإدخال اسمك',
-                  fillColor: Colors.white70),
+                  //fillColor: Colors.white70
+              ),
               onChanged: (name) {
                 user.setName(name);
               },

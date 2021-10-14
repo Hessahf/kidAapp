@@ -20,7 +20,7 @@ class SelectCharacterButton extends StatelessWidget {
       width: mobile ? screenSize.width * .08 : screenSize.width * .06,
       height: mobile ? screenSize.width * .08 : screenSize.width * .06,
       decoration: BoxDecoration(
-        color: Colors.white70,
+        //color: Colors.white70,
         shape: BoxShape.circle,
       ),
       child: IconButton(
@@ -32,7 +32,7 @@ class SelectCharacterButton extends StatelessWidget {
           Icons.add_photo_alternate_rounded,
           size: mobile ? 24 : 35,
         ),
-        color: Colors.black87,
+        //color: Colors.black87,
       ),
     );
   }
