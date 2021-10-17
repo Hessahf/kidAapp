@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:new_one/screens/start-screen.dart';
-import 'package:new_one/widgets/splach/mainWidget.dart';
+import 'package:new_one/widgets/splash/mainWidget.dart';
 class SplashScreen extends StatefulWidget{
 
   @override
@@ -14,7 +14,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Timer(
-        Duration(seconds: 3),
+        Duration(seconds: 5),
             () => Navigator.of(this.context).pushReplacement(MaterialPageRoute(
             builder: (BuildContext context) => StartScreen())));
   }

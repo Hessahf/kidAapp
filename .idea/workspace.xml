@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="060db447-07c9-46e6-8fb8-9a3ceb465df0" name="Changes" comment="Splash Screen">
-      <change afterPath="$PROJECT_DIR$/lib/widgets/splach/mainWidget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/constant/responsiv.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constant/responsiv.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/router.dart" afterDir="false" />
+    <list default="true" id="060db447-07c9-46e6-8fb8-9a3ceb465df0" name="Changes" comment="Splash Screen update">
       <change beforePath="$PROJECT_DIR$/lib/screens/splash.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/splash.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/styles.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/styles.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/start-page-widgets/Avatar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/start-page-widgets/Avatar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/start-page-widgets/Name-Field.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/start-page-widgets/Name-Field.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/start-page-widgets/Select-character.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/start-page-widgets/Select-character.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +64,7 @@
       <workItem from="1634123366421" duration="3000" />
       <workItem from="1634123375231" duration="6143000" />
       <workItem from="1634201701333" duration="366000" />
-      <workItem from="1634384797372" duration="9423000" />
+      <workItem from="1634384797372" duration="9577000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring">
       <created>1634201760233</created>
@@ -102,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634389077250</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Splash Screen update">
+      <created>1634479555203</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634479555203</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactoring" />
     <MESSAGE value="Splash Screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Splash Screen" />
+    <MESSAGE value="Splash Screen update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Splash Screen update" />
   </component>
 </project>
