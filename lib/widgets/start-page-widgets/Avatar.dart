@@ -16,7 +16,7 @@ class Avatar extends StatelessWidget {
         width: mobile ? screenSize.width * .35 : screenSize.width * .25,
         height: mobile ? screenSize.width * .35 : screenSize.width * .25,
         decoration: BoxDecoration(
-          //color: Colors.white70,
+          color: Colors.white70,
           shape: BoxShape.circle,
         ),
         child: Image.asset(

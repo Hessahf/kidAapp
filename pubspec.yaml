@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_launcher_icons: "^0.9.0"
   http: any
+  splashscreen: ^1.3.5
   
 flutter_icons:
     image_path: "assets/appIcon/appIcon.png"

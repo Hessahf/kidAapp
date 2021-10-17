@@ -1,30 +1,28 @@
+import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:new_one/constant/color.dart';
-import 'package:new_one/widgets/splach/Sky.dart';
+import 'package:new_one/screens/start-screen.dart';
+import 'package:new_one/widgets/splach/mainWidget.dart';
+class SplashScreen extends StatefulWidget{
 
-class Splash extends StatelessWidget {
+  @override
+  _SplashScreenState createState() => _SplashScreenState();
+}
+
+class _SplashScreenState extends State<SplashScreen> {
+  @override
+  void initState() {
+    super.initState();
+    Timer(
+        Duration(seconds: 3),
+            () => Navigator.of(this.context).pushReplacement(MaterialPageRoute(
+            builder: (BuildContext context) => StartScreen())));
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-     body:
-     Column(
-        children: <Widget>[
-          Sky(),
-          Expanded(child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisSize: MainAxisSize.max,
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: <Widget>[
-                   Container(
-                     child: Image.asset("assets/charecters/Splash.png"),
-                   ),
-                   ]
-              )
-
-          )
-        ],
-      ),
+     body:mainSplash()
     );
   }
+
 }

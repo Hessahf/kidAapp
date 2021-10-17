@@ -6,7 +6,7 @@ ThemeData buildLightTheme() {
   return base.copyWith(
     buttonColor: purple,
     cardColor: Colors.white,
-    backgroundColor: yellow,
+    backgroundColor: Colors.white,
     primaryColor:orange,
     accentColor: orange,
     hintColor:greyDark ,
@@ -25,9 +25,9 @@ ThemeData buildDarkTheme() {
     backgroundColor:greyDark,
     primaryColor: greyDark,
     accentColor: greyDark,
-    hintColor:orange ,
+    hintColor:Colors.white ,
     iconTheme: IconThemeData(
-      color: purple,
+      color: Colors.black87,
     ),
     scaffoldBackgroundColor:blackDark,
   );

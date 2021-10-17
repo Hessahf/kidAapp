@@ -20,7 +20,7 @@ class SelectCharacterButton extends StatelessWidget {
       width: mobile ? screenSize.width * .08 : screenSize.width * .06,
       height: mobile ? screenSize.width * .08 : screenSize.width * .06,
       decoration: BoxDecoration(
-        //color: Colors.white70,
+        color: Colors.white70,
         shape: BoxShape.circle,
       ),
       child: IconButton(

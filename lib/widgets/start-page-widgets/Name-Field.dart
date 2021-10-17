@@ -48,7 +48,7 @@ class NameField extends StatelessWidget {
               decoration: InputDecoration(
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(30.0),
-                    borderSide: BorderSide(color: Colors.white),
+                    borderSide: BorderSide(color: greyDark),
                   ),
                   focusedBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(30.0),
