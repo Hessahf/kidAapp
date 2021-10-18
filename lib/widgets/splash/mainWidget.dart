@@ -10,7 +10,7 @@ class mainSplash extends StatelessWidget {
       body: Column(
         children: <Widget>[
           Sky(),
-          Expanded(child: Column(
+          Container(child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisSize: MainAxisSize.max,
               mainAxisAlignment: MainAxisAlignment.end,
