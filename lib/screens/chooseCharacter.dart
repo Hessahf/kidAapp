@@ -4,16 +4,15 @@ import 'package:new_one/controllers/start-screen-controller.dart';
 
 // ignore: use_key_in_widget_constructors
 class ChooseCharacter extends StatefulWidget {
-  //  User user;
-  // ChooseCharacter(this.user);
+   User user;
+  ChooseCharacter(this.user);
   @override
- // State<ChooseCharacter> createState() => _ChooseCharacterState(this.user);
-   State<ChooseCharacter> createState() => _ChooseCharacterState();
+ State<ChooseCharacter> createState() => _ChooseCharacterState(this.user);
 }
 
 class _ChooseCharacterState extends State<ChooseCharacter> {
-  // _ChooseCharacterState(this.user);
-  // User user;
+  _ChooseCharacterState(this.user);
+  User user;
   bool pic1 = false;
   bool pic2 = false;
   bool pic3 = false;
@@ -341,7 +340,7 @@ class _ChooseCharacterState extends State<ChooseCharacter> {
             ),
             ElevatedButton(
               onPressed: () {
-               //user.setImage(selectedPhoto);
+               user.setImage(selectedPhoto);
               },
               child: const Text('حفظ',
                   style: TextStyle(

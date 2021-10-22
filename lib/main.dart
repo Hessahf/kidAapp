@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:new_one/screens/chooseCharacter.dart';
 import 'package:new_one/screens/splash.dart';
 import 'package:new_one/styles.dart';
 
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: ' Demo',
       theme: buildLightTheme(),
       darkTheme: buildDarkTheme(),
-      home: ChooseCharacter(),
+      home: SplashScreen(),
     );
   }
 }
