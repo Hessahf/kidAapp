@@ -1,3 +1,4 @@
+// import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:new_one/constant/color.dart';
 import 'package:new_one/widgets/start-page-widgets/Vase-Decoration.dart';
@@ -24,42 +25,42 @@ class _StartScreenState extends State<StartScreen> {
     return Scaffold(
         //backgroundColor: yellow,
         body: Center(
-          child: Column(
-            children: [
-              SizedBox(
-                height: mobile
-                    ? newDevice
-                        ? screenSize.height * .2
-                        : screenSize.height * .165
-                    : screenSize.height * .15,
-              ),
-              Avatar(screenSize: screenSize),
-              SelectCharacterButton(screenSize: screenSize),
-              SizedBox(
-                height: mobile
-                    ? newDevice
-                        ? screenSize.height * .045
-                        : screenSize.height * .03
-                    : screenSize.height * .03,
-              ),
-              NameField(screenSize: screenSize, user: user),
-              SizedBox(
-                height: screenSize.height * .05,
-              ),
-              StartButton(
-                screenSize: screenSize,
-                user: user,
-              ),
-              SizedBox(
-                height: mobile
-                    ? newDevice
-                        ? screenSize.height * .115
-                        : screenSize.height * .08
-                    : screenSize.height * .05,
-              ),
-              VaseDecoration(screenSize: screenSize),
-            ],
+      child: Column(
+        children: [
+          SizedBox(
+            height: mobile
+                ? newDevice
+                    ? screenSize.height * .2
+                    : screenSize.height * .165
+                : screenSize.height * .15,
           ),
-        ));
+          Avatar(screenSize: screenSize),
+          SelectCharacterButton(screenSize: screenSize),
+          SizedBox(
+            height: mobile
+                ? newDevice
+                    ? screenSize.height * .045
+                    : screenSize.height * .03
+                : screenSize.height * .03,
+          ),
+          NameField(screenSize: screenSize, user: user),
+          SizedBox(
+            height: screenSize.height * .05,
+          ),
+          StartButton(
+            screenSize: screenSize,
+            user: user,
+          ),
+          SizedBox(
+            height: mobile
+                ? newDevice
+                    ? screenSize.height * .115
+                    : screenSize.height * .08
+                : screenSize.height * .05,
+          ),
+          VaseDecoration(screenSize: screenSize),
+        ],
+      ),
+    ));
   }
 }

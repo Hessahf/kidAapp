@@ -1,5 +1,6 @@
 // ignore_for_file: avoid_print
 
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:new_one/backend/IPAddress.dart';
 import 'package:new_one/constant/color.dart';
@@ -16,6 +17,7 @@ class StartButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var mobile = isMobile(context);
+    final firebase = FirebaseDatabase.instance.reference();
 
     return Container(
       width: mobile ? screenSize.width * 0.35 : screenSize.width * 0.30,
@@ -58,6 +60,9 @@ class StartButton extends StatelessWidget {
           user.setIPAddress(await IpInfo.getIPAddress());
           print(user.getIPAddress());
           print(user.getName());
+          await firebase.child('IPAdress').set(user.getIPAddress());
+          await firebase.child('Name').set(user.getName());
+          print('DONE!');
         },
       ),
     );

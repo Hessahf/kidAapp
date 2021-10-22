@@ -1,9 +1,10 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:new_one/screens/splash.dart';
 import 'package:new_one/styles.dart';
 
-
-void main() {
+void main() async {
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 
@@ -20,4 +21,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
