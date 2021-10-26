@@ -62,6 +62,7 @@ class StartButton extends StatelessWidget {
           print(user.getName());
           await firebase.child('IPAdress').set(user.getIPAddress());
           await firebase.child('Name').set(user.getName());
+          await firebase.child('Image').set(user.getImage());
           print('DONE!');
         },
       ),

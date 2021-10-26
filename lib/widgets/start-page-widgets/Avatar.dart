@@ -19,9 +19,7 @@ class Avatar extends StatelessWidget {
           color: Colors.white70,
           shape: BoxShape.circle,
         ),
-        child: Image.asset(
-          'lib/assets/charecters/main character avatar.png',
-          fit: BoxFit.scaleDown,
-        ));
+        child: Image.network('https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar2.png?alt=media&token=98fe5c50-b7cd-42c6-a8c6-a168224d2266'),
+    );
   }
 }

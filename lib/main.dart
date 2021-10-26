@@ -4,8 +4,8 @@ import 'package:new_one/screens/splash.dart';
 import 'package:new_one/styles.dart';
 
 void main() async {
-  await Firebase.initializeApp();
   runApp(MyApp());
+  await Firebase.initializeApp();
 }
 
 class MyApp extends StatelessWidget {

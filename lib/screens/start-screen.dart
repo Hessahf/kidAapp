@@ -35,7 +35,7 @@ class _StartScreenState extends State<StartScreen> {
                 : screenSize.height * .15,
           ),
           Avatar(screenSize: screenSize),
-          SelectCharacterButton(screenSize: screenSize),
+          SelectCharacterButton(screenSize: screenSize,user: user),
           SizedBox(
             height: mobile
                 ? newDevice
