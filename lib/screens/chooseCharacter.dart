@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:new_one/constant/color.dart';
 import 'package:new_one/controllers/start-screen-controller.dart';
+import 'package:new_one/screens/start-screen.dart';
 
 // ignore: use_key_in_widget_constructors
 class ChooseCharacter extends StatefulWidget {
-   User user;
+  User user;
   ChooseCharacter(this.user);
   @override
- State<ChooseCharacter> createState() => _ChooseCharacterState(this.user);
+  State<ChooseCharacter> createState() => _ChooseCharacterState(this.user);
 }
 
 class _ChooseCharacterState extends State<ChooseCharacter> {
@@ -21,12 +22,14 @@ class _ChooseCharacterState extends State<ChooseCharacter> {
   bool pic6 = false;
   bool pic7 = false;
   bool pic8 = false;
-
+  String selectedPhoto =
+      'https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar3.png?alt=media&token=e0e6c1c9-985a-4f8d-82d4-35f444d9a87b';
   @override
   Widget build(BuildContext context) {
     double hieght = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
-    String selectedPhoto='https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar2.png?alt=media&token=98fe5c50-b7cd-42c6-a8c6-a168224d2266';
+
+    // 'https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar2.png?alt=media&token=98fe5c50-b7cd-42c6-a8c6-a168224d2266';
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
@@ -88,7 +91,9 @@ class _ChooseCharacterState extends State<ChooseCharacter> {
                             pic1 = true;
                             pic2 =
                                 pic3 = pic4 = pic5 = pic6 = pic7 = pic8 = false;
-                                selectedPhoto='https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar1.png?alt=media&token=84059068-77fb-4f62-9559-8fda46cdf680';
+
+                            selectedPhoto =
+                                'https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar1.png?alt=media&token=84059068-77fb-4f62-9559-8fda46cdf680';
                           });
                         },
                       ),
@@ -122,7 +127,8 @@ class _ChooseCharacterState extends State<ChooseCharacter> {
                             pic3 = true;
                             pic1 =
                                 pic2 = pic4 = pic5 = pic6 = pic7 = pic8 = false;
-                                selectedPhoto='https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar3.png?alt=media&token=e0e6c1c9-985a-4f8d-82d4-35f444d9a87b';
+                            selectedPhoto =
+                                'https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar3.png?alt=media&token=e0e6c1c9-985a-4f8d-82d4-35f444d9a87b';
                           });
                         },
                       ),
@@ -156,7 +162,8 @@ class _ChooseCharacterState extends State<ChooseCharacter> {
                             pic5 = true;
                             pic1 =
                                 pic2 = pic3 = pic4 = pic6 = pic7 = pic8 = false;
-                                selectedPhoto='https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar5.png?alt=media&token=22cb974f-4248-4c30-a635-c1cc8e8f0aca';
+                            selectedPhoto =
+                                'https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar5.png?alt=media&token=22cb974f-4248-4c30-a635-c1cc8e8f0aca';
                           });
                         },
                       ),
@@ -190,7 +197,8 @@ class _ChooseCharacterState extends State<ChooseCharacter> {
                             pic7 = true;
                             pic1 =
                                 pic2 = pic3 = pic4 = pic5 = pic6 = pic8 = false;
-                                selectedPhoto='https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar7.png?alt=media&token=b2f6c882-7501-4de3-a087-a7d11a7ade75';
+                            selectedPhoto =
+                                'https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar7.png?alt=media&token=b2f6c882-7501-4de3-a087-a7d11a7ade75';
                           });
                         },
                       ),
@@ -228,7 +236,8 @@ class _ChooseCharacterState extends State<ChooseCharacter> {
                             pic2 = true;
                             pic1 =
                                 pic3 = pic4 = pic5 = pic6 = pic7 = pic8 = false;
-                                selectedPhoto='https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar2.png?alt=media&token=d9dda836-8ca0-4174-96b2-4c73acf16c9c';
+                            selectedPhoto =
+                                'https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar2.png?alt=media&token=d9dda836-8ca0-4174-96b2-4c73acf16c9c';
                           });
                         },
                       ),
@@ -262,7 +271,8 @@ class _ChooseCharacterState extends State<ChooseCharacter> {
                             pic4 = true;
                             pic1 =
                                 pic2 = pic3 = pic5 = pic6 = pic7 = pic8 = false;
-                                selectedPhoto='https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar4.png?alt=media&token=85f9521a-26fd-45d0-aeab-49da5c9735ab';
+                            selectedPhoto =
+                                'https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar4.png?alt=media&token=85f9521a-26fd-45d0-aeab-49da5c9735ab';
                           });
                         },
                       ),
@@ -296,7 +306,8 @@ class _ChooseCharacterState extends State<ChooseCharacter> {
                             pic6 = true;
                             pic1 =
                                 pic2 = pic3 = pic4 = pic5 = pic7 = pic8 = false;
-                                selectedPhoto='https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar6.png?alt=media&token=85bddbc3-62a1-4a80-ae61-8a4a0ac0526e';
+                            selectedPhoto =
+                                'https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar6.png?alt=media&token=85bddbc3-62a1-4a80-ae61-8a4a0ac0526e';
                           });
                         },
                       ),
@@ -330,7 +341,8 @@ class _ChooseCharacterState extends State<ChooseCharacter> {
                             pic8 = true;
                             pic1 =
                                 pic2 = pic3 = pic4 = pic5 = pic6 = pic7 = false;
-                                selectedPhoto='https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar8.png?alt=media&token=5c82efd6-c52c-45c3-9c48-b87df54f305e';
+                            selectedPhoto =
+                                'https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar8.png?alt=media&token=5c82efd6-c52c-45c3-9c48-b87df54f305e';
                           });
                         },
                       ),
@@ -341,9 +353,9 @@ class _ChooseCharacterState extends State<ChooseCharacter> {
             ),
             ElevatedButton(
               onPressed: () {
-               user.setImage(selectedPhoto);
-               print(selectedPhoto);
-               Navigator.pop(context);
+                user.setImage(selectedPhoto);
+                print(selectedPhoto);
+                Navigator.pop(context);
               },
               child: const Text('حفظ',
                   style: TextStyle(

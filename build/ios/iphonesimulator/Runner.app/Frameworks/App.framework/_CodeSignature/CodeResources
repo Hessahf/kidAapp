@@ -16,9 +16,9 @@
 		<data>
 		CxMAQXRcfBZnAoi1VMfEJv8IeWE=
 		</data>
-		<key>flutter_assets/NOTICES</key>
+		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		bCmTqVlOPE1otU1cwCggcrUWdV8=
+		nrrtgoHgRthp+uC374Tth39W5gk=
 		</data>
 		<key>flutter_assets/assets/appIcon/appIcon.png</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>flutter_assets/isolate_snapshot_data</key>
 		<data>
-		ELluN2aQ5lXx4NZnJlBUXyZEfGo=
+		j58ZaJgxEhtmGJxhHo73d32iYFI=
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		ovNScYA3UrD2AbRtV6vsuuTdS1A=
+		J7qPmmFPaygOeIpBq43GwaVCmIk=
 		</data>
 		<key>flutter_assets/lib/assets/charecters/WormiesPoh.png</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>flutter_assets/vm_snapshot_data</key>
 		<data>
-		BICKLyZmEDX0yMJrQwYDz3tKwt8=
+		GSdeSSVKlMZc4dGp6K8FmNf4taU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -141,15 +141,15 @@
 			IUsJsCX5USAjE6/2LqRQEptfyJL+6KJPI1DY2ex8sMg=
 			</data>
 		</dict>
-		<key>flutter_assets/NOTICES</key>
+		<key>flutter_assets/NOTICES.Z</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bCmTqVlOPE1otU1cwCggcrUWdV8=
+			nrrtgoHgRthp+uC374Tth39W5gk=
 			</data>
 			<key>hash2</key>
 			<data>
-			slgDcFT0fmtyi9LUqb4H0zpwYI6Dri/dbKIUjKNuzog=
+			pCUovdfYDOPy/z7tjfMigYPYQulA2SF4Ka/iXRMZTlk=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/appIcon/appIcon.png</key>
@@ -222,22 +222,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ELluN2aQ5lXx4NZnJlBUXyZEfGo=
+			j58ZaJgxEhtmGJxhHo73d32iYFI=
 			</data>
 			<key>hash2</key>
 			<data>
-			d5Zhq5S+3ylGF8osqx2M/nYmzI/1w4FDUIjGiKWFaOc=
+			O2mgX/4QpiIaR3Relq6EGshnOo+RCjbxxYoqeo+kJuY=
 			</data>
 		</dict>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ovNScYA3UrD2AbRtV6vsuuTdS1A=
+			J7qPmmFPaygOeIpBq43GwaVCmIk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Slru6bVTfnpvGb5UgO7jYaOirboLQFk1HWl8oT3Hup4=
+			GmEncd10EMDyJvKZKBMQGXwuPzetEsLJM2lAl9YHts0=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/assets/charecters/WormiesPoh.png</key>
@@ -409,11 +409,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BICKLyZmEDX0yMJrQwYDz3tKwt8=
+			GSdeSSVKlMZc4dGp6K8FmNf4taU=
 			</data>
 			<key>hash2</key>
 			<data>
-			dW/lW8/DGE7kqgVOIL22hio/M/WrH8+bodAoyvhyXsU=
+			w1vt9GEbbsxDdWG+Cns8O0OA28qaaHi/gkQ1bDZezNk=
 			</data>
 		</dict>
 	</dict>

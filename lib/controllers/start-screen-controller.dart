@@ -1,9 +1,10 @@
 class User {
   var ip;
   var name;
-  var image;
+  var image =
+      'https://firebasestorage.googleapis.com/v0/b/kids-app-78767.appspot.com/o/GroupChar2.png?alt=media&token=d9dda836-8ca0-4174-96b2-4c73acf16c9c';
 
-  User({this.ip, this.name, this.image});
+  User({this.ip, this.name});
 
   setIPAddress(String? ip) => this.ip = ip;
   setName(String name) => this.name = name;

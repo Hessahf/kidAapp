@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:new_one/constant/responsiv.dart';
 import 'package:new_one/controllers/start-screen-controller.dart';
 import 'package:new_one/screens/chooseCharacter.dart';
+import 'package:new_one/screens/start-screen.dart';
 
 class SelectCharacterButton extends StatelessWidget {
   const SelectCharacterButton({
@@ -30,8 +31,10 @@ class SelectCharacterButton extends StatelessWidget {
         padding: EdgeInsets.all(0),
         onPressed: () {
           print('Hi');
-          Navigator.of(context).push(MaterialPageRoute(
-              builder: (BuildContext context) => ChooseCharacter(user)));
+          Navigator.of(context)
+              .push(MaterialPageRoute(
+                  builder: (BuildContext context) => ChooseCharacter(user)))
+              .then((value) => StartScreen());
         },
         icon: Icon(
           Icons.add_photo_alternate_rounded,
